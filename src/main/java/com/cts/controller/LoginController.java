@@ -11,5 +11,11 @@ public class LoginController {
 		
 		return "index";
 	}
+	
+	@PostMapping("register")
+	public String register() {
+		
+		return "register";
+	}
 
 }
